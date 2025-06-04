@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Space Grotesk;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #10101e;
+  color: white;
+  background: linear-gradient(to right, #28142f, #10101e);
+}
+
+/*     Navbar    */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 80px;
+}
+
+nav > .logo {
+  background-color: #dbff00;
+  color: black;
+  padding: 10px 20px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav li > a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+nav li > a:hover {
+  color: #dbff00;
+}
+
+/*     Hero section  */
+
+.hero-section {
+  padding: 50px 0px 100px;
+}
+
+.hero-section > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-size: 95px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.hero-btn-1 {
+  text-decoration: none;
+  color: white;
+  background-color: #2563eb;
+  padding: 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.hero-btn-1:hover {
+  background-color: #2255c3;
+}
+
+.hero-btn-2 {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+
+.hero-btn-2:hover {
+  color: #2563eb;
+}
+
+.hero-image {
+  width: 500px;
+  height: 419px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("/photos/hero-image_cleanup.PNG");
+  background-size: cover;
+  padding-bottom: 16px;
+}
+
+.hero-main-image{
+  width: 380px;
+}
+
+/*  About section */
+
+.about-section {
+  padding: 120px 0px;
+}
+
+.about-section > .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 119px;
+  margin: 0px 150px;
+}
+
+.content p {
+  color: gray;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.content h2 {
+  font-size: 45px;
+  margin-bottom: 23px;
+}
+
+.about-image{
+  width: 400px;
+}
+
+/*     Portfolio section  */
+
+.portfolio-section {
+  padding: 120px 0px;
+}
+
+.portfolio-section > h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.portfolio-section > .portfolio-link {
+  text-align: end;
+  margin: 0px 130px 18px;
+}
+
+.portfolio-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.portfolio-section a:hover {
+  color: #dbff00;
+}
+
+.portfolio-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0px 25px;
+}
+
+.portfolio-card {
+  height: 470px;
+  width: 350px;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card > .card-innertext {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(207, 212, 216);
+  padding: 20px 20px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+}
+
+.portfolio-card > .card-innertext:hover {
+  border: 3px solid #dbff00;
+  border-radius: 5px;
+}
+
+.card-innertext > h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card-innertext > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-innertext a {
+  font-size: 40px;
+}
+
+.card-innertext a:hover {
+  color: #dbff00;
+}
+
+#card1 {
+  background: url("/photos/portfolio-card/card1.jpg");
+  background-size: cover;
+}
+#card2 {
+  background-image: url("/photos/portfolio-card/card2.webp");
+  background-size: cover;
+}
+#card3 {
+  background-image: url("/photos/portfolio-card/card3.webp");
+  background-size: cover;
+}
+
+/*  companies section  */
+
+.companies-section {
+  padding: 100px 0px 150px;
+}
+
+.company-sec-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 330px;
+  margin: 0px 150px;
+}
+
+.company-sec-text h2 {
+  font-size: 45px;
+}
+.company-sec-text p {
+  font-size: 20px;
+  color: gray;
+  line-height: 28px;
+}
+
+.companies-logo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 70px 70px 0px;
+}
+
+.companies-logo > .logos {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  width: 180px;
+  height: 85px;
+  transition: 0.5s;
+}
+
+.companies-logo > .logos:hover {
+  transform: translateY(-5px);
+}
+
+#logo1 {
+  background-image: url("/photos/logos/google-logo.png");
+  background-size: cover;
+}
+#logo2 {
+  background-image: url("/photos/logos/netflix-logo.png");
+  background-size: cover;
+}
+#logo3 {
+  background-image: url("/photos/logos/microsoft-logo.png");
+  background-size: cover;
+}
+#logo4 {
+  background-image: url("/photos/logos/openai-logo.png");
+  background-size: cover;
+  color: white;
+}
+#logo5 {
+  font-size: 30px;
+  color: gray;
+  font-weight: bold;
+  width: auto;
+  padding-top: 25px;
+}
+
+/*     Quote section    */
+
+.quote-section {
+  padding: 120px 0px;
+}
+
+.quote-section > hr {
+  border: none;
+  width: 600px;
+  height: 4px;
+  background-color: #dbff00;
+  background: linear-gradient(to right, #dcf24c, #10101e);
+}
+
+.quote-section > div {
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-section div > h2 {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.quote-section div > p {
+  font-family: sans-serif;
+  font-size: 23px;
+  margin-left: 25px;
+}
+
+/*       Footer   */
+
+footer {
+  padding: 120px 150px 0px;
+}
+
+.foot-heading {
+  font-size: x-large;
+  text-align: end;
+  margin-bottom: 30px;
+}
+
+.foot-links-back {
+  height: 400px;
+  background-color: #dbff00;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 70px;
+}
+
+.foot-links-back > a {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.foot-links-back > a > span {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+
+.foot-links-back > div {
+  display: flex;
+  gap: 20px;
+}
+
+.foot-links-back > div > a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.foot-links-back > div > a:hover {
+  text-decoration: underline;
+}
+
+/*  responsiveness of website */
+
+
+@media (max-width: 1024px) {
+
+  /* hero section */
+  .hero-image {
+  width: 433px;
+  height: 361px;
+ 
+}
+
+.hero-main-image{
+  width: 332px;
+}
+
+.hero-section h1 {
+  font-size: 71px;
+}
+
+.hero-btn-1 {
+  padding: 11px; 
+}
+
+.hero-btn-2 {
+  font-size: 16px;
+}
+
+/*  About section  */
+
+.about-section {
+  padding: 110px 0px;
+}
+
+.about-section > .content {
+  gap: 126px;
+  margin: 0px 69px;
+}
+
+.content p {
+  color: gray;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.content h2 {
+  font-size: 42px;
+ 
+}
+.about-image{
+  width: 350px;
+}
+
+
+/* company section  */
+
+.company-sec-text {
+  gap: 200px;
+  margin: 0px 110px;
+}
+
+
+/* quote section */
+
+.quote-section div > h2 {
+  font-size: 47px;
+  
+}
+  
+}
+
