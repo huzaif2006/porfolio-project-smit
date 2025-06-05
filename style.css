@@ -98,7 +98,7 @@ nav li > a:hover {
   padding-bottom: 16px;
 }
 
-.hero-main-image{
+.hero-main-image {
   width: 380px;
 }
 
@@ -127,7 +127,7 @@ nav li > a:hover {
   margin-bottom: 23px;
 }
 
-.about-image{
+.about-image {
   width: 400px;
 }
 
@@ -335,8 +335,8 @@ footer {
   padding: 120px 150px 0px;
 }
 
-.foot-heading {
-  font-size: x-large;
+.foot-heading h2 {
+  font-size: 36px;
   text-align: end;
   margin-bottom: 30px;
 }
@@ -384,72 +384,317 @@ footer {
 
 /*  responsiveness of website */
 
-
 @media (max-width: 1024px) {
+  /* hero section */
+  .hero-image {
+    width: 433px;
+    height: 361px;
+  }
+
+  .hero-main-image {
+    width: 332px;
+  }
+
+  .hero-section h1 {
+    font-size: 71px;
+  }
+
+  .hero-btn-1 {
+    padding: 11px;
+  }
+
+  .hero-btn-2 {
+    font-size: 16px;
+  }
+
+  /*  About section  */
+
+  .about-section {
+    padding: 110px 0px;
+  }
+
+  .about-section > .content {
+    gap: 126px;
+    margin: 0px 69px;
+  }
+
+  .content p {
+    color: gray;
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .content h2 {
+    font-size: 41px;
+  }
+  .about-image {
+    width: 340px;
+  }
+
+  /* company section  */
+
+  .company-sec-text {
+    gap: 200px;
+    margin: 0px 110px;
+  }
+
+  /* quote section */
+
+  .quote-section div > h2 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 850px) {
+  /* hero section */
+  .hero-image {
+    width: 388px;
+    height: 330px;
+  }
+
+  .hero-main-image {
+    width: 295px;
+  }
+
+  .hero-section h1 {
+    font-size: 58px;
+    margin-bottom: 35px;
+  }
+
+  .hero-btn-1 {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  .hero-btn-2 {
+    font-size: 16px;
+  }
+
+  /*  About section  */
+
+  .about-section {
+    padding: 92px 0px;
+  }
+
+  .about-section > .content {
+    gap: 99px;
+    margin: 0px 39px;
+  }
+
+  .content p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .content h2 {
+    font-size: 35px;
+  }
+  .about-image {
+    width: 330px;
+  }
+
+  /* company section  */
+
+  .companies-section {
+    padding: 100px 0px 150px;
+  }
+
+  .company-sec-text {
+    gap: 173px;
+    margin: 0px 51px;
+  }
+
+  .company-sec-text h2 {
+    font-size: 42px;
+  }
+  .company-sec-text p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .companies-logo {
+    gap: 30px;
+  }
+
+  .companies-logo > .logos {
+    width: 163px;
+    height: 76px;
+  }
+
+  #logo5 {
+    font-size: 28px;
+  }
+
+  /* quote section */
+
+  .quote-section div > h2 {
+    font-size: 38px;
+  }
+
+  .quote-section > div {
+    padding: 46px 20px;
+  }
+
+  .quote-section div > p {
+    font-size: 20px;
+  }
+
+  /*   footer section */
+
+  footer {
+    padding: 120px 150px 0px;
+  }
+
+  .foot-heading {
+    font-size: x-large;
+    text-align: end;
+    margin-bottom: 30px;
+  }
+
+  .foot-links-back {
+    padding: 0px 42px;
+  }
+
+  .foot-links-back > a {
+    font-size: 31px;
+  }
+
+  .foot-links-back > a > span {
+    font-size: 14px;
+  }
+
+  .foot-links-back > div > a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 740px) {
+  /*     Navbar    */
+
+  nav {
+    padding: 45px 48px;
+  }
+
+  nav ul {
+    display: none;
+  }
 
   /* hero section */
   .hero-image {
-  width: 433px;
-  height: 361px;
- 
+    width: 338px;
+    height: 285px;
+  }
+
+  .hero-main-image {
+    width: 253px;
+  }
+
+  .hero-section h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+
+  /*  About section  */
+
+  .about-section {
+    padding: 92px 0px;
+  }
+
+  .about-section > .content {
+    gap: 45px;
+    margin: 0px 37px;
+  }
+
+  .content p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .content h2 {
+    font-size: 33px;
+  }
+  .about-image {
+    width: 320px;
+  }
+
+  /* portfolio section */
+
+  .portfolio-section > .portfolio-link {
+    text-align: end;
+    margin: 0px 185px 18px;
+  }
+
+  /* company section  */
+
+  .companies-section {
+    padding: 100px 0px 150px;
+  }
+
+  .company-sec-text {
+    gap: 160px;
+    margin: 0px 40px;
+  }
+
+  .company-sec-text h2 {
+    font-size: 35px;
+  }
+  .company-sec-text p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .companies-logo {
+    gap: 16px;
+  }
+
+  .companies-logo > .logos {
+    width: 153px;
+    height: 72px;
+  }
+
+  #logo5 {
+    font-size: 27px;
+  }
+
+  /* quote section */
+
+  .quote-section div > h2 {
+    font-size: 35px;
+  }
+
+  .quote-section > div {
+    padding: 40px 0px;
+  }
+
+  .quote-section div > p {
+    font-size: 17px;
+  }
+
+  /*       Footer   */
+
+  .foot-heading h2 {
+    font-size: 28px;
+    text-align: end;
+    margin-bottom: 30px;
+  }
+
+  .foot-links-back {
+    padding: 0px 42px;
+  }
+
+  .foot-links-back > a {
+    font-size: 28px;
+  }
+
+  .foot-links-back > a > span {
+    font-size: 12px;
+  }
+
+  .foot-links-back > div > a {
+    font-size: 15px;
+  }
 }
 
-.hero-main-image{
-  width: 332px;
-}
-
-.hero-section h1 {
-  font-size: 71px;
-}
-
-.hero-btn-1 {
-  padding: 11px; 
-}
-
-.hero-btn-2 {
-  font-size: 16px;
-}
-
-/*  About section  */
-
-.about-section {
-  padding: 110px 0px;
-}
-
-.about-section > .content {
-  gap: 126px;
-  margin: 0px 69px;
-}
-
-.content p {
-  color: gray;
-  font-size: 17px;
-  line-height: 26px;
-}
-
-.content h2 {
-  font-size: 42px;
- 
-}
-.about-image{
-  width: 350px;
-}
-
-
-/* company section  */
-
-.company-sec-text {
-  gap: 200px;
-  margin: 0px 110px;
-}
-
-
-/* quote section */
-
-.quote-section div > h2 {
-  font-size: 47px;
+@media (max-width: 600px) {
   
 }
-  
-}
-
