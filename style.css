@@ -853,6 +853,9 @@ footer {
   .portfolio-section a {
     font-size: 4vw;
   }
+  .portfolio-card a {
+    font-size: 235%;
+  }
 
   /* company section  */
 
