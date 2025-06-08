@@ -796,8 +796,6 @@ footer {
 @media (max-width: 480px) {
   /* hero section */
 
-  
-
   .hero-image {
     width: 74vw;
     height: 41vh;
@@ -809,7 +807,7 @@ footer {
     row-gap: 40px;
   }
   .hero-main-image {
-    width: 233px;
+    width: 60vw;
   }
 
   .hero-section h1 {
@@ -882,5 +880,48 @@ footer {
 
   .quote-section div > p {
     font-size: 3vw;
+  }
+
+  /* footer section */
+  footer {
+    padding: 62px 10vw 0px;
+  }
+
+  .foot-heading h2 {
+    font-size: 5vw;
+  }
+
+  .foot-links-back {
+    padding: 0px 20px;
+  }
+
+  .foot-links-back {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 0px 9%;
+  }
+
+  .foot-links-back > div {
+    gap: 27px;
+    flex-direction: column;
+    padding: 0px 19vw;
+  }
+  .foot-links-back > a {
+    font-size: 5vw;
+  }
+
+  .foot-links-back > a > span {
+    padding: 3px 5px;
+  }
+  .foot-links-back > a > span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* hero section  */
+  .hero-image {
+    width: 78vw;
+    height: 33vh;
   }
 }
