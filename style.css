@@ -34,6 +34,10 @@ nav ul {
   gap: 40px;
 }
 
+.menu-button {
+  display: none;
+}
+
 nav li > a {
   text-decoration: none;
   color: white;
@@ -302,7 +306,7 @@ nav li > a:hover {
 
 .quote-section > hr {
   border: none;
-  width: 600px;
+  width: 55%;
   height: 4px;
   background-color: #dbff00;
   background: linear-gradient(to right, #dcf24c, #10101e);
@@ -579,6 +583,10 @@ footer {
     display: none;
   }
 
+  .menu-button {
+    display: flex;
+  }
+
   /* hero section */
   .hero-image {
     width: 338px;
@@ -696,5 +704,183 @@ footer {
 }
 
 @media (max-width: 600px) {
+  /* hero section */
+  .hero-image {
+    width: 267px;
+    height: 226px;
+  }
+
+  .hero-main-image {
+    width: 205px;
+  }
+
+  .hero-section h1 {
+    font-size: 45px;
+    margin-bottom: 27px;
+  }
+
+  .hero-btn-1 {
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .hero-btn-2 {
+    font-size: 14px;
+    margin-left: 26px;
+  }
+
+  /*   about section */
+
+  .about-section {
+    padding: 92px 0px;
+  }
+
+  .about-section > .content {
+    gap: 45px;
+    margin: 0px 25px;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+    margin-bottom: 17px;
+  }
+  .about-image {
+    width: 255px;
+  }
+
+  /* company section text */
+
+  .companies-section {
+    padding: 80px 0px 82px;
+  }
+
+  .company-sec-text {
+    gap: 139px;
+    margin: 0px 28px;
+  }
+
+  /* quote section  */
+
+  .quote-section {
+    padding: 100px 0px;
+  }
+
+  .quote-section div > h2 {
+    font-size: 30px;
+  }
+
+  .quote-section > div {
+    padding: 25px 0px;
+  }
+
+  .quote-section div > p {
+    font-size: 17px;
+  }
+
+  /* footer heading  */
+
+  footer {
+    padding: 62px 78px 0px;
+  }
+
+  .foot-heading h2 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* hero section */
+
   
+
+  .hero-image {
+    width: 74vw;
+    height: 41vh;
+  }
+
+  .hero-section > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .hero-main-image {
+    width: 233px;
+  }
+
+  .hero-section h1 {
+    font-size: 14vw;
+  }
+
+  /* about section */
+
+  .about-section > .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section {
+    padding: 64px 0px;
+  }
+
+  .about-section > .content {
+    gap: 43px;
+    margin: 0px 49px;
+  }
+
+  .about-image {
+    width: 70vw;
+  }
+
+  /* portfolio -section */
+
+  .portfolio-section {
+    padding: 67px 0px;
+  }
+
+  .portfolio-section > .portfolio-link {
+    text-align: end;
+    margin: 0px 53px 18px;
+  }
+
+  .portfolio-section > h2 {
+    font-size: 8vw;
+  }
+  .portfolio-section a {
+    font-size: 4vw;
+  }
+
+  /* company section  */
+
+  .company-sec-text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-sec-text h2 {
+    font-size: 10vw;
+  }
+
+  .company-sec-text {
+    gap: 32px;
+    margin: 0px 13vw;
+  }
+
+  /* quote section  */
+
+  .quote-section div > h2 {
+    font-size: 5vw;
+  }
+
+  .quote-section div > p {
+    font-size: 3vw;
+  }
 }
