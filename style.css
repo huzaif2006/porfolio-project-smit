@@ -450,6 +450,10 @@ footer {
 }
 
 @media (max-width: 850px) {
+  /* nav bar */
+  nav {
+    padding: 45px 30px;
+  }
   /* hero section */
   .hero-image {
     width: 388px;

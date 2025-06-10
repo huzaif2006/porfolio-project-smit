@@ -35,8 +35,3 @@ Welcome to the source code for my **personal portfolio website**! This project s
 
 ---
 
-## 📦 Installation
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/your-username/huzaif-portfolio.git
