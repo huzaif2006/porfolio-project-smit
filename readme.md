@@ -4,12 +4,6 @@ Welcome to the source code for my **personal portfolio website**! This project s
 
 ---
 
-## 📸 Demo
-
-![Portfolio Screenshot](./photos/huzaif-image.png)  
-👉 [Live Preview (optional)](https://your-live-link.com)
-
----
 
 ## 🚀 Features
 
